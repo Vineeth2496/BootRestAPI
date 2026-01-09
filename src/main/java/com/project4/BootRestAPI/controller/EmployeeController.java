@@ -57,6 +57,11 @@ public class EmployeeController {
 		
 		return new ResponseEntity<String>("Employee deleted sucessfully!. ",HttpStatus.OK);
 	}
+	
+	//Hello World
+	public String greetHello() {
+		return "Hello World";
+	}
 }
 
 
